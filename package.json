@@ -18,7 +18,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": ""
+      "url": "https://github.com/rodrigocuriel/grunt-casperjs-plugin/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
