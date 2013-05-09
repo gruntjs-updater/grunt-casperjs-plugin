@@ -51,6 +51,10 @@ exports.init = function(grunt) {
     if (options.websecurity) {
       command += ' --web-security=' + options.websecurity;
     }
+    
+    if (options.reportPath) {
+     command += ' --xunit=' + options.reportPath;
+    }
 
     command += " " + filepath;
 
