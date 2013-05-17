@@ -1,10 +1,10 @@
 {
   "name": "grunt-casperjs-plugin",
-  "description": "With this grunt.js task you can run tests with CasperJS.",
-  "version": "1.0.0",
+  "description": "With this grunt.js task you can run tests with CasperJS, based on grunt-casperjs [https://npmjs.org/package/grunt-casperjs]",
+  "version": "1.0.3",
   "homepage": "https://github.com/rodrigocuriel/grunt-casperjs-plugin",
   "author": {
-    "name": "OnStar",
+    "name": "Rodrigo Curiel",
     "email": "rodrigocuriel@gmail.com",
     "url": "https://github.com/rodrigocuriel"
   },
@@ -42,7 +42,7 @@
     "casperjs",
     "onstar"
   ],
-  "readme": "# grunt-casperjs\n\n> With this grunt.js task you can run tests with CasperJS.\n\n## Getting Started\n\nFirst [Install CasperJS](http://casperjs.org/installation.html).\n\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-casperjs --save-dev\n```\n\nOne the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks('grunt-casperjs');\n```\n\n## The \"casperjs\" task\n\n### Overview\nIn your project's Gruntfile, add a section named `casperjs` to the data object passed into `grunt.initConfig()`.\n\n```js\ngrunt.initConfig({\n  casperjs: {\n    options: {\n      // Task-specific options go here.\n    },\n    your_target: {\n      // Target-specific file lists and/or options go here.\n    },\n  },\n})\n```\n\n### Usage Examples\n\n#### Default Options\n\n```js\ngrunt.initConfig({\n  casperjs: {\n    options: {},\n    files: {\n      ['tests/casperjs/**/*.js']\n    },\n  },\n})\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n",
-  "_id": "grunt-casperjs-plugin@1.0.0",
+  "readme": "# grunt-casperjs\n\n> With this grunt.js task you can run tests with CasperJS.\n\n## based on grunt-casperjs [https://npmjs.org/package/grunt-casperjs]\n\n\n## Getting Started\n\nFirst [Install CasperJS](http://casperjs.org/installation.html).\n\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-casperjs-plugin --save-dev\n```\n\nOne the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks('grunt-casperjs-plugin');\n```\n\n## The \"casperjs\" task\n\n### Overview\nIn your project's Gruntfile, add a section named `casperjs` to the data object passed into `grunt.initConfig()`.\n\n```js\ngrunt.initConfig({\n  casperjs: {\n    options: {\n      // Task-specific options go here.\n    },\n    your_target: {\n      // Target-specific file lists and/or options go here.\n    },\n  },\n})\n```\n\n### Usage Examples\n\n#### Default Options\n\n```js\ngrunt.initConfig({\n  casperjs: {\n    options: {},\n    files: {\n      ['tests/casperjs/**/*.js']\n    },\n  },\n})\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n",
+  "_id": "grunt-casperjs-plugin@1.0.3",
   "_from": "grunt-casperjs-plugin"
 }
