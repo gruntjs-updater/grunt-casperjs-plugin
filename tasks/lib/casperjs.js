@@ -30,17 +30,16 @@ exports.init = function(grunt) {
 
     if (options.includes) {
       command += ' --includes=';
+	
+      if (options.cwd){
+        	command += options.cwd;
+    	}
+      command += options.includes.join(',');
     }
 
     if (options.engine) {
       command += ' --engine=' + options.engine;
     };
-
-    if (options.cwd){
-        command += options.cwd;
-    }
-      command += options.includes.join(',');
-    }
 
     if (options.logLevel) {
       command += ' --log-level=' + options.logLevel;
