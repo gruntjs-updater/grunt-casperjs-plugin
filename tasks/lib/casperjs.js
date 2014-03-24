@@ -61,6 +61,10 @@ exports.init = function(grunt) {
      command += ' --xunit=' + options.reportPath;
     }
 
+    if (options.proxy) {
+     command += ' --proxy=' + options.proxy;
+    }
+
     command += " " + filepath;
 
     grunt.log.write("\nCommand: " + command + '\n');

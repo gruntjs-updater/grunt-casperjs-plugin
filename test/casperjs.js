@@ -1,4 +1,5 @@
-var casper = require('casper').create();
+// Uncomments the following line if you have an error about casperJS instance
+// var casper = require('casper').create();
 
 casper.start('http://www.google.nl/', function() {
     this.test.assertTitle('Google', 'google homepage title is the one expected');
