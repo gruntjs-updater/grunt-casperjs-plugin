@@ -10,9 +10,8 @@
  * Licensed under the MIT license.
  */
 
-'use strict';
-
 module.exports = function(grunt) {
+  'use strict';
 
   // Project configuration.
   grunt.initConfig({
@@ -21,14 +20,18 @@ module.exports = function(grunt) {
         'Gruntfile.js',
         'tasks/*.js'
       ],
-      options: {
+      /* options: {
         jshintrc: '.jshintrc',
-      },
+      },*/
     },
 
     // Configuration to be run (and then tested).
     casperjs: {
-      files: ['test/casperjs.js']
+      files: ['test/casperjs.js'],
+      options: {
+	// Example of using the 'proxy' option. Here is my Cntlm proxy.
+	// proxy: '127.0.0.1:3128'
+      }
     },
 
   });
